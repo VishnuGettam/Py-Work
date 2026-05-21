@@ -8,8 +8,6 @@ Private - only inside a class
 Protected - inside a class,derived class
 
 """
-
-
 class Person:      
 
     def __init__(self,name,age):
@@ -18,7 +16,6 @@ class Person:
         self.age = age
         # private variable(__)
         self.__location = "Bangalore"
-
 
     def GetValue(self):
         print(f" User Name : {self._name} && Age : {self.age}  && location - {self.__location}")
