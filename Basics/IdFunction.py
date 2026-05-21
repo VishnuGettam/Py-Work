@@ -1,3 +1,5 @@
+# This Python code snippet is demonstrating the use of the `id()` function and the `is` and `is not`
+# identity operators.
 a=10;
 b=10;
 
