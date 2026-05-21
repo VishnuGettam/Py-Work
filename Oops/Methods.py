@@ -26,13 +26,11 @@ class Person:
 if __name__ == "__main__":
     p1 = Person(name="Vihaan",age=8)
     
-    p1.GetValue()
-    
+    # p1 Object
+    p1.GetValue()    
     p1.GetValue_StaticMethod()
     
-    
-    p2 = Person("Vishnu",4)
-    
-    p2.GetValue()
-    
+    #p2 Object
+    p2 = Person("Vishnu",4)    
+    p2.GetValue()    
     p2.GetValue_StaticMethod()
