@@ -34,3 +34,5 @@ if __name__ == "__main__":
     p2 = Person("Vishnu",4)    
     p2.GetValue()    
     p2.GetValue_StaticMethod()
+
+    
