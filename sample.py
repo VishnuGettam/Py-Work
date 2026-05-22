@@ -1,12 +1,11 @@
-def Addition(a:int,b:int):
-    print("__name__ : " ,__name__)
-    print("Addition of {} and {} is - {} ".format(a,b,a+b));
-    
-    
+id:int = 10
+
+print(f"Id : {id}")
 
 
-if __name__ == "__main__":
-    val = Addition(4,7);
+salary:float = 9987.8976
+print(f"Salary : {salary}")
 
-    print(val);
+minor:bool = True
 
+print(f"Is minor : { minor   }  ")
