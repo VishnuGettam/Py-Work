@@ -28,3 +28,32 @@ val = fun(2);
 
 print(val(2)); # 2 ** 2
 print(val(3)); # 3 ** 2    
+
+
+# filter function filter(function,sequence) - picks only the true values
+
+ages = [4,5,73,23,12,9]
+
+def myFunction(x):
+    if x < 12:
+        return False
+    else:
+        return True
+
+adults = filter(myFunction,ages)
+print(f"Adults : { list(adults)}" )
+
+# map function map(function,sequence) 
+
+def calculatedata(x):
+    return x * 2
+ip = [5,6,8,9]
+
+op = map(calculatedata,ip)
+
+print(f" map output :  { list(op) }")
+
+
+# reduce function
+
+# generator function (return , yield)

@@ -1,12 +1,16 @@
-_agelist = [2,3,4,5]
+def UserInformation(*args):
 
-_appendlist =[6,7,8]
+    for x in args:
+        print(x)
 
-_extendlist = [9.10,11]
+
+UserInformation(4,5,6,7,"vishnu")
+
+print("---------Keyword arguements----------")
+
+def KeyInformation(**args):
+    for x in args:
+        print(args[x])
 
 
-# allows indivisual values/other lists 
-print(_agelist.extend(_extendlist))
-
-# allows only indivisual values 
-print( _agelist.append(_appendlist[0]))
+KeyInformation(name="vishnu",location="blr",sal=231)

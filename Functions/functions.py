@@ -17,7 +17,8 @@ def UserInformation(name,place,age):
 UserInformation(age=30,name="Alice",place="Bng");    
 
 
-#Arbitraty arguments (If we dont know on how many arguments to pass)
+#Arbitraty arguments (If we dont know on how many arguments to pass)(tuple)
+print("---------Arbitrary arguements----------")
 def sum(*args):
     ans=0;
     for x in args:
@@ -29,7 +30,22 @@ print("Sum of 10 & 20 & 30 - {}".format(sum(10,20,30)));
 print("Sum of 10 & 20 & 30 & 40 - {}".format(sum(10,20,30,40)));
 
 
-#function with return statement
+# keyword arguements(dictionary)
+
+print("---------Keyword arguements----------")
+
+def KeyInformation(**keyargs):
+    for x in keyargs:
+        print(keyargs[x])
+
+
+KeyInformation(name="vishnu",location="blr",sal=231)
+
+
+
+
+
+#function with tuple return statement
 
 def fun():
     return 10 , 20;
