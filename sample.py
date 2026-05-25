@@ -1,11 +1,12 @@
-id:int = 10
+_agelist = [2,3,4,5]
 
-print(f"Id : {id}")
+_appendlist =[6,7,8]
+
+_extendlist = [9.10,11]
 
 
-salary:float = 9987.8976
-print(f"Salary : {salary}")
+# allows indivisual values/other lists 
+print(_agelist.extend(_extendlist))
 
-minor:bool = True
-
-print(f"Is minor : { minor   }  ")
+# allows only indivisual values 
+print( _agelist.append(_appendlist[0]))
