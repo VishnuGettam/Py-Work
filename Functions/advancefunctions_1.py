@@ -1,7 +1,16 @@
+"""
+        Lambda : anonymous function
+        map    : return based on the function calculation   
+        filter : filter the data 
+        reduce : iteraters and finally result in a single value 
+        generator : pause the execution with yield 
+"""
+
+
 #Recursive (an function calling its own func)
 
 def Fact(num:int):
-    if num == 1:
+    if num == 1: 
         return num;
     else:
         output = num * Fact(num-1);
@@ -53,7 +62,13 @@ op = map(calculatedata,ip)
 
 print(f" map output :  { list(op) }")
 
+# map vs filter
 
-# reduce function
+_number = [3,6,8,10,12,16]
+even_number = list(filter(lambda x: x%2 ==0 ,_number))
 
-# generator function (return , yield)
+print(f" Filter :  input : {_number} && even_numbers : {even_number}")
+
+map_data = list(map(lambda x: x * 2 , _number))
+print(f" Map :  input : {_number} && mapped_numbers : {map_data}")
+
