@@ -22,7 +22,7 @@ numbers.insert(1,15); #.insert(index,value)
 print("List after insert : {}".format(numbers));
 
 
-#Remove
+#Remove (first instance of the matching object)
 
 numbers.remove(15);  #.remove(value)
 
@@ -59,6 +59,21 @@ print("List after copy : {}".format(numbers_copy));
 #Delete 
 
 del numbers_copy; # deletes the list
+
+
+print(f" Append vs Extend ")
+_agelist = [2,3,4,5]
+
+_appendlist =[6,7,8]
+
+_extendlist = [9.10,11]
+
+
+# allows indivisual values/other lists 
+print(f" extended list  : {_agelist.extend(_extendlist)} ")
+
+# allows only indivisual values 
+print(f" appended list :  {_agelist.append(_appendlist[0])} ")
 
 
 
