@@ -1,9 +1,7 @@
 """
     Types of attributes 
-
         Object  -> object specific 
         Class   -> same for all objects
-
 """
 
 
