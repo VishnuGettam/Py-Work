@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Decorator Test",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "Py_Decorators.validation.test_decorator",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
